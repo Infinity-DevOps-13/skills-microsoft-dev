@@ -1,3 +1,5 @@
+# update
+
 def title_case(text: str) -> str:
     """Convert text to Title Case (basic)."""
     return " ".join(w.capitalize() for w in text.split())
